@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # When present, use Intel IPP for performance on Windows, Linux, and macOS (x86_64 only)
 if(WIN32)
     set(IPP_ROOT "$ENV{USERPROFILE}/.nuget/packages/intelipp.static.win-x64/2022.3.0.387")
