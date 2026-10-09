@@ -1,3 +1,9 @@
+## 2026-10-09
+
+* Add `ParallelLTO.cmake` (`colours::parallel_lto_flags`) so Release LTO uses
+  `-flto=auto` (GCC) / `-flto=thin` (Clang) instead of bare `-flto`, which made
+  GCC serialize LTRANS jobs at link time.
+
 ## 2025-12-26
 
 * PAMPLEJUCE_IPP will now be true on Linux and macOS Intel
